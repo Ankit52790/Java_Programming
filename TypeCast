@@ -1,0 +1,15 @@
+public class TypeCast {
+    public static void main(String args[]){
+        int i=100;
+       // long|1=i;
+
+        double m=i;
+       // long|2=(long)d;
+        System.out.println(i);
+
+        System.out.println(m);
+      //  System.out.println(d);
+      //  System.out.println(|2);
+    }
+    
+}
