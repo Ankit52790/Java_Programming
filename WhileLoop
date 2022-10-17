@@ -1,0 +1,64 @@
+import java.util.Scanner;
+public class WhileLoop {
+    public static void main(String args[]){
+       // System.out.println("Enter number:");
+        //int n;
+       // Scanner s=new Scanner(System.in); 
+       // n=s.nextInt();
+       
+
+       // int i=0;
+       // while(i<=n){
+           //1 System.out.println("Ankitanshu\n");
+            // Print whole number
+           // System.out.print(i);
+           // i=i+1;
+        //}
+     /* 
+       int i=0;
+        while(i<10)
+        {
+            System.out.println("Ankitanshu");
+           // i=i+1;
+            //i++;
+            ++i;
+            */
+    //    }
+   // }
+   /* 
+    int i=0;
+    while(i<10)
+    {
+        i=i+1;
+        System.out.print(i);
+        i=i+1;
+    }
+ }
+}
+*/
+//public static void main (String[] args) {
+    /* 
+    int x=5;
+    int y=5;
+    while((x=5)==y)
+    {
+        System.out.println("Hello");
+        x++;
+        y++;
+    }
+}
+}
+*/
+//public static void main (String[] args) {
+    int x=5;
+    int y=5;
+    while(x==y)
+    {
+        System.out.println("Hello");
+        x++;
+        y++;
+    }
+}
+}
+
+
