@@ -1,0 +1,19 @@
+public class Conversion {
+    public static void main(String args[]){
+       // System.out.println(4 + 4);
+       // System.out.println(4 + 4.5);
+       // System.out.println(4.1 + 4.4 );
+       // System.out.println((double)2/5);
+        
+       // short s=17;
+         //int i=s;
+        // s=(short)i;
+
+       //char ch='a';
+       int i=97;
+       char ch=(char)i;
+    i=ch;
+       System.out.println(i); 
+    }
+    
+}
