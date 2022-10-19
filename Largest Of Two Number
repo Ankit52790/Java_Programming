@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class LargestOfTwo {
+    public static void main(String args[]){
+        Scanner s= new Scanner(System.in);
+        System.out.println("Enter a and b number:");
+
+        int a,b;
+        a=s.nextInt();
+        b=s.nextInt();
+        
+
+        if(a>b)
+        {
+            System.out.println("a is greater");
+
+        }else if(a<b){
+            System.out.println("b is greater");
+
+        }
+        else{
+
+        
+        System.out.println("Outside else");
+
+    }
+    
+    }
+}
+
