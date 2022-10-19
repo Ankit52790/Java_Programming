@@ -1,0 +1,22 @@
+import java.util.Scanner;
+ public class SumOfNumbers {
+    public static void main(String args[]){
+        System.out.println("Enter number:");
+        int n;
+        Scanner s=new Scanner(System.in);
+        n=s.nextInt();
+        int i=0;
+        int sum=0;
+        while(i<=n){
+            //System.out.println(sum);
+            sum=sum+i;
+            i=i+1;
+        }
+        {
+            System.out.println(sum);
+        }
+
+    }
+        
+    
+}
