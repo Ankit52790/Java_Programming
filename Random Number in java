@@ -1,0 +1,11 @@
+import java.util.*;
+public class RandomNumber {
+    public static void main(String args[]){
+        int max=6;
+        int min= 1;
+        Random randomNum=new Random();
+        int showMe=min + randomNum.nextInt(max);
+        System.out.println(showMe); 
+    }
+    
+}
