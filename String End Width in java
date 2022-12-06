@@ -1,0 +1,8 @@
+class StringEndwith{ 
+public static void main(String args[]){ 
+String s1="Java by AnkitKumar"; 
+System.out.println(s1.endsWith("t")); //true
+System.out.println(s1.endsWith("Kumar")); //true
+System.out.println(s1.endsWith("kumar"));//false
+}
+}
